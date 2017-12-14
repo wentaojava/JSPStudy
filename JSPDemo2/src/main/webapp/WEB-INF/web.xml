@@ -9,4 +9,13 @@
     <welcome-file>default.htm</welcome-file>
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
-</web-app>
+  
+  <servlet>
+  	<servlet-name>findEmp</servlet-name>
+  	<servlet-class>web.findEmpServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>findEmp</servlet-name>
+  	<url-pattern>/findEmp</url-pattern>
+  </servlet-mapping>
+</web-app>   
