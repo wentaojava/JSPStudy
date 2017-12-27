@@ -2,3 +2,4 @@ jspDemo:  JSP基本语法
 JSPDemo2: JSP隐含对象演示;转发演示
 JSPDemo3: EL与JSEL；自定义标签
 JSPDemo4: cookie的使用演示
+JSPDemo5: session的使用演示 
