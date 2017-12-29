@@ -37,4 +37,9 @@
   	<filter-name>logFilter</filter-name>
   	<url-pattern>/*</url-pattern>
   </filter-mapping>
+  
+  <!--配置监听器  -->
+  <listener>
+  	<listener-class>web.myListener</listener-class>
+  </listener>
 </web-app>
